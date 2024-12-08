@@ -3,6 +3,7 @@ const assert = require('assert');
 
 eval(fs.readFileSync('code.js')+'');
 
+//tests are all from augmenting path as they test all necessary elements correctly
 var graph = {'foo': {'boo': 7},
     'boo': {'foo': 3, 'bar': 2},
     'bar': {'boo': 4}};
